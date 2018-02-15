@@ -1,0 +1,297 @@
+.topnav{
+  display: flex;
+  flex-flow: row nowrap;
+  height:70px;
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  padding-left:20%;
+  background: #2671c1;
+  top:0;
+}
+input[type=text]{
+ margin-bottom: 9px;
+  width:350px;
+   height: 35px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  font-size: 15px;
+  color:#9b8058;
+  overflow-x: hidden;
+  overflow-y: auto;
+  font-family: 'Poiret One', cursive;
+  box-shadow:2px 0px 3px 3px #b6b7ba;
+}
+input[type=text]:focus{
+ border :none;
+}
+.outerdiv{
+  margin-bottom: 9px;
+  width:350px;
+   height: 35px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  color:#9b8058;
+  font-family: 'Poiret One', cursive;
+  box-shadow:2px 0px 3px 3px #b6b7ba;
+}
+.divinput{
+
+  width:325px;
+  height:30px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  outline: 0;
+
+}
+.content{
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+.title{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+  width:50%;
+  color: white;
+}
+.card{
+  display: flex;
+  flex-flow:column;
+  width:404px;
+  height: 340px;
+  padding-left: 2px;
+  padding-right: 2px;
+  //justify-content:center;
+  align-items: center;
+  border: solid 1px;
+  margin-right: 10px;
+  margin-top: 12px;
+}
+.card.one{
+  border: solid 1px #3db8e5;
+}
+.card.two{
+  border: solid 1px #21965d;
+}
+.card.three{
+  border: solid 1px #f7d171;
+}
+.card.four{
+  border: solid 1px #c470f4;
+}
+.card.five{
+  border: solid 1px #e50d5c;
+}
+.card.six{
+  border: solid 1px #4e845f;
+}
+.card:hover{
+  box-shadow:2px 2px 3px 3px #e50d5c;
+}
+.card.one:hover{
+ box-shadow:2px 2px 3px 3px #3db8e5;
+}
+.card.two:hover{
+  box-shadow:2px 2px 3px 3px #21965d;
+}
+.card.three:hover{
+  box-shadow:2px 2px 3px 3px #f7d171;
+}
+.card.four:hover{
+  box-shadow:2px 2px 3px 3px #c470f4;
+}
+.card.five:hover{
+  box-shadow:2px 2px 3px 3px #e50d5c;
+}
+.card.six:hover{
+  box-shadow:2px 2px 3px 3px #4e845f
+}
+.heading {
+  margin-left: 140px;
+  color:#e50d5c;
+  cursor: default ;
+}
+.heading.one{
+  color:#3db8e5
+}
+.heading.two{
+  color:#21965d
+}
+.heading.three{
+  color:#f7d171
+}
+.heading.four{
+  color:#c470f4
+}
+.heading.five{
+  color:#e50d5c
+}
+.heading.six{
+  color:#4e845f
+}
+
+
+.header{
+  height: 100px;
+}
+.filter{
+  display: flex;
+  flex-flow: row nowrap;
+  height: 25px;
+  width:300px;
+  margin-top: 14px;
+
+}
+.filter div{
+  margin-top:7px;
+  width:90px;
+  height: 20px;
+  margin-left: 5px;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  border: solid 1px;
+  border-color: #e50d5c;
+  border-radius: 25px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 15px;
+  cursor: pointer;
+}
+.filter.one div{
+  border-color:#3db8e5;
+}
+.filter.two div{
+  border-color:#21965d;
+}
+.filter.three div{
+  border-color:#f7d171;
+}
+.filter.four div{
+  border-color:#c470f4;
+}
+.filter.five div{
+  border-color:#e50d5c;
+}
+.filter.six div{
+  border-color:#4e845f;
+}
+.addnew{
+  padding-top:7px;
+  display: flex;
+  color: white;
+  justify-content: center;
+  justify-items: center;
+  width:4%;
+  cursor: pointer;
+}
+.content{
+ padding-top:80px;
+  display: row wrap;
+}
+
+
+
+
+
+.deletebtn{
+  display: flex;
+  padding-top: 5px;
+  margin-left: 20px;
+   color: #e50d5c;
+  cursor: pointer;
+}
+.deletebtn.one{
+  color: #3db8e5;
+}
+.deletebtn.two{
+   color:#21965d;
+}
+.deletebtn.three{
+   color:#f7d171;
+}
+.deletebtn.four{
+   color:#c470f4;
+}
+.deletebtn.five{
+  color: #e50d5c;
+}
+.deletebtn.six{
+   color:#4e845f;
+}
+input[type=checkbox]{
+  vertical-align: top;
+  top:0;
+  margin-right: 10px;
+}
+.selectedFilter{
+  background: #e50d5c;
+}
+.selectedFilter.one{
+  background:#3db8e5;
+}
+.selectedFilter.two{
+  background:#21965d;
+}
+.selectedFilter.three{
+  background:#f7d171;
+}
+.selectedFilter.four{
+  background:#c470f4;
+}
+.selectedFilter.five{
+  background:#e50d5c;
+}
+.selectedFilter.six{
+  background:#4e845f;
+}
+.unselectedFilter{
+  background: white;
+}
+.completeTodo{
+  text-decoration: line-through;
+}
+
+.label{
+  word-break: break-all;
+}
+.tasks{
+  width:400px;
+  display:flex;
+  flex-flow: row nowrap;
+  margin-top: 5px;
+ font-family: 'Quicksand', sans-serif;
+}
+.taskslist{
+  height: 172px;
+  padding: 0;
+  list-style-type:  none;
+  overflow-y:hidden;
+}
+.taskslist:hover{
+  overflow-y: scroll;
+}
+
+.label{
+  display: flex;
+  width:300px;
+
+}
+.inputl{
+  size:40;
+}
+.dataInput{
+
+}
